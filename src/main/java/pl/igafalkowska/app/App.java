@@ -35,7 +35,7 @@ public class App
 
         //before update
         System.out.println( user );
-        user.setLast_Name( "ko" );
+        user.setLastName( "koop" );
         emanager.getTransaction( ).commit( );
 
         //after update
